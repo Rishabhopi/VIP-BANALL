@@ -1,6 +1,6 @@
 from datetime import datetime
 
-photo3 = "https://te.legra.ph/file/d9bdc757b128d8ea21985.jpg"
+photo3 = "https://envs.sh/Wlu.jpg"
 
 
 def sample_response(input_text):
@@ -10,7 +10,7 @@ def sample_response(input_text):
     return f"{photo3}\n\
     hey! Vip Boy is not here i am lara wanna play with me"
 
-  if user_message in ("vip", "owner", "your crush", "@THE_VIP_BOY"):
+  if user_message in ("vip", "owner", "your crush", "@Ashish_Backed"):
     return "HE is busy in her schedule. you can tell me i inform her"
   if user_message in ("bsdk", "madharchod", "bkl", "behanchod", "cgutiya",
                       "gaandu"):
