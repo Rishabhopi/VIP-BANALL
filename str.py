@@ -18,7 +18,6 @@ Add Me There And I will Ruined Group 👻!__
 **My lib's Info!**
 ❍ Python Version » `{}`
 ❍ Telethon Version » `{}`
-❍ Code Owner » [𝐕𝐈𝐏 𝐁𝐎𝐘](https://t.me/THE_VIP_BOY)
 
 Type /help For Commands!
 """
@@ -26,12 +25,12 @@ Type /help For Commands!
 
 startxt2 = """Meow [{}](tg://user?id={}),
 
-__This Is BanAll Bot\nOnly My Owner Can Access This Bot👻!__
+__This Is chat Bot\nOnly My Owner Can Access This Bot👻!__
 
 **My lib's Info!**
 ❍ Python Version » `{}`
 ❍ Telethon Version » `{}`
-❍ Code Owner » [𝐕𝐈𝐏 𝐁𝐎𝐘](https://t.me/THE_VIP_BOY)"""
+"""
 
 
 hlptxt = """ Meow [{}](tg://user?id={}),
@@ -44,5 +43,5 @@ __Here is the help menu__:
 ❅ /leave - To leave group.
 ❅ /restart - To restart the bot.
 
-❍ Facing any kind of issue then just join @THE_VIP_BOY and ask there!!
+❍ Facing any kind of issue then just join @Ashish_Backed and ask there!!
 """
